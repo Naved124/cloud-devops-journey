@@ -4,7 +4,7 @@ Tracking my hands-on progression from Linux fundamentals to CI/CD and AWS Infras
 ## Phase 1: Local Engine & Fundamentals
 - [x] Secure AWS Account & Set Billing Alarms
 - [x] Initialize Tracker Repository
-- [ ] Run first Docker container locally
+- [x] Run first Docker container locally
 - [ ] Containerize a basic application
 
 ## Phase 2: Cloud & Infrastructure (Upcoming)
