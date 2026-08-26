@@ -5,10 +5,10 @@ FROM golang:1.21
 WORKDIR /app
 
 #copying my go file from the machine into container
-COPY main.go .
+COPY network.go .
 
 #compile the code
-RUN go build -o my-program main.go
+RUN go build -o server network.go
 
 #execute my program
-CMD ["./my-program"]
+CMD ["./server"]

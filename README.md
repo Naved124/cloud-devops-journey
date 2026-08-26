@@ -6,6 +6,7 @@ Tracking my hands-on progression from Linux fundamentals to CI/CD and AWS Infras
 - [x] Initialize Tracker Repository
 - [x] Run first Docker container locally
 - [x] Containerize a basic application
+- [x] Implement container port mapping and continuous web servers
 
 ## Phase 2: Cloud & Infrastructure (Upcoming)
 - [ ] Deploy container to AWS EC2
