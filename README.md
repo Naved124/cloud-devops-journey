@@ -8,6 +8,7 @@ Tracking my hands-on progression from Linux fundamentals to CI/CD and AWS Infras
 - [x] Containerize a basic application
 - [x] Implement container port mapping and continuous web servers
 - [x] Orchestrate multi-container applications with Docker Compose and private networking
+- [x] Implement Docker Volumes for persistent database storage
 
 ## Phase 2: Cloud & Infrastructure (Upcoming)
 - [ ] Deploy container to AWS EC2
