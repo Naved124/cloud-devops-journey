@@ -1,0 +1,12 @@
+FROM golang:1.27
+WORKDIR /app
+
+#copying the module files and downloading dependencies
+COPY go.mod go.sum ./
+RUN go mod download
+
+#copy the actual code and build it
+COPY main.go .
+RUN go build -o server main.go
+
+CMD ["./server"]
