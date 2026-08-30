@@ -5,6 +5,8 @@ on:
   push:
     branches:
       - main
+    paths-ignore:
+      -'**.md'
 
 # 2. The Engine: What machine is running this?
 jobs:
