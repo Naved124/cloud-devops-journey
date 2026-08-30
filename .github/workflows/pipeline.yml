@@ -1,0 +1,30 @@
+name: Docker CI/CD Pipeline
+
+# 1. The Trigger: When does this run?
+on:
+  push:
+    branches:
+      - main
+
+# 2. The Engine: What machine is running this?
+jobs:
+  build-and-push:
+    runs-on: ubuntu-latest
+
+    # 3. The Steps: What are we doing?
+    steps:
+      - name: 📥 Pull the code from GitHub
+        uses: actions/checkout@v4
+
+      - name: 🔐 Log in to Docker Hub
+        uses: docker/login-action@v3
+        with:
+          username: ${{ secrets.DOCKER_USERNAME }}
+          password: ${{ secrets.DOCKER_PASSWORD }}
+
+      - name: 🚀 Build and Push the Container
+        uses: docker/build-push-action@v5
+        with:
+          context: ./day4-volumes
+          push: true
+          tags: naved124/go-web-server:v2
