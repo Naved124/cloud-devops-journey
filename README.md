@@ -11,7 +11,10 @@ Tracking my hands-on progression from Linux fundamentals to CI/CD and AWS Infras
 - [x] Implement Docker Volumes for persistent database storage
 - [x] Publish custom container images to Docker Hub registry
 
-## Phase 2: Cloud & Infrastructure (Upcoming)
+## Phase 2: CI/CD & Automation
+- [x] Create a GitHub Actions pipeline to automatically build and push Docker images
+
+## Phase 3: Cloud & Infrastructure (Ongoing)
 - [ ] Deploy container to AWS EC2
 - [ ] Provision infrastructure using Terraform
 - [ ] Automate deployment with GitHub Actions
